@@ -25,7 +25,43 @@ The fixture data csv file contains the following information for each game playe
 
 The player data csv file contains the following information for every player that plays in each game played in a given leauge/season:
 
+ALL PLAYERS
 
+- Name
+- Shirt number
+- Nationality
+- Position played
+- Age
+- Minutes played
+- Goals scored
+- Assists
+- Penalty kicks attempted and scored
+- Total shots and shots on target
+- Yellow and red cards
+- Total touches
+- Total tackles
+- Total interceptions
+- Total blocks
+- Expected goals scored (XG)
+- Expected goals scored without penalty kicks
+- Expected assists
+- Total passes attempted, completed
+- Progressive passes
+- Total carries and progressive carries
+- Total attacks and successful attacks
+
+ONLY GOAL KEEPERS
+
+- Total shots saved
+- Save percentage
+- Post shot expected goals conceded
+- Total passes attempted
+- Average legnth of pass
+- Total goal kicks
+- Average length of goal kicks
+- Tota crosses faced and stopped
+- Total defensive actions outside the penalty box
+- 
 ## Prerequisite Software
 
 - [Python 3](https://www.python.org/) (make sure to add Python to PATH/environment variables when installing)
