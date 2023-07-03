@@ -61,7 +61,7 @@ ONLY GOAL KEEPERS
 - Average length of goal kicks
 - Tota crosses faced and stopped
 - Total defensive actions outside the penalty box
-- 
+  
 ## Prerequisite Software
 
 - [Python 3](https://www.python.org/) (make sure to add Python to PATH/environment variables when installing)
@@ -89,45 +89,22 @@ Follow the instructions for your operating system below.
 
 Once you've installed the [requirements], double click `start_windows.bat`. That's it.
 
-
-
 ### Using the program
 
-The program will ask which sport you'd like to check surebets for. I recommend not choosing the same sport all the time,
-as this can start to look suspicious to bookies. Similarly, don't switch sports all over the place.
-
-The program will then guide you through the rest of the process yourself, but should you have any issues, please raise
-them with [@isaacharrisholt](https://github.com/isaacharrisholt).
+The program will ask which league and season you'd like to get data for. I recommend not collecting mutiple seasons/leagues of data at once as the website may block access if you try to access it too many times in a short period of time. The program will then guide you through the rest of the process.
 
 ## To-Dos
 
 There are a few more things I want to do with this project. The current to-do list is below, but if you think of
 anything you'd like added, please let me know!
 
-- [x] Support for 3 sites
-- [ ] Support for 5 sites
-- [ ] Support for 10 sites!
-- [ ] SUPPORT FOR 15 SITES!!!
-- [ ] Support for 5 sports
-- [ ] Support for 10 sports
-- [ ] Add a GUI
+- [ ] Support more leagues
+- [ ] Support seasons before XG data available (pre 2017)
 
-## Contribute
-
-Pull requests welcome, though if you want to make a major change, please open an issue first for discussion.
-
-If you'd like to contribute by providing support for a new site, please create a Python file called `<sitename>.py` then
-open an issue or message [@isaacharrisholt](https://github.com/isaacharrisholt). Please also ensure you follow the same
-structure as I've done, so if I need to make changes in the future it's easy to find things.
-
-## Credits
-
-**Devs:**
-- So far, just me.
-
-**Inspiration:**
-- [Frank Andrade on Medium](https://frank-andrade.medium.com/)
 
 ## License
 
-Vorn Surebet Finder is licensed under [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+Licensed under [MIT]((https://opensource.org/license/mit/)).
+
+The data provided is property of https://fbref.com
+I don't own any of the data
